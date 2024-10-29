@@ -1,0 +1,150 @@
+.basic-share-button__link,
+.basic-share-button__icon {
+  display: inline-block
+}
+
+.basic-share-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.basic-share-button {
+  border-radius: 1px;
+  -webkit-transition: 25ms ease-out;
+  -o-transition: 25ms ease-out;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.basic-share-button__icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; 
+}
+
+.basic-share-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.basic-share-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+.basic-share-button--small .basic-share-button__noun,
+.basic-share-button--small .basic-share-button__verb {
+  display: none;
+}
+
+.basic-share-button--medium .basic-share-button__verb {
+  display: none;
+}
+
+.basic-share-button__icon {
+  fill: #fff;
+  stroke: none
+}
+
+.basic-share-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.basic-share-button--facebook:hover,
+.basic-share-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.basic-share-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.basic-share-button--twitter:hover,
+.basic-share-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.basic-share-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.basic-share-button--email:hover,
+.basic-share-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.basic-share-button--pinterest {
+  background-color: #bd081c;
+  border-color: #bd081c;
+}
+
+.basic-share-button--pinterest:hover,
+.basic-share-button--pinterest:active {
+  background-color: #8c0615;
+  border-color: #8c0615;
+}
+
+.basic-share-button--linkedin {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.basic-share-button--linkedin:hover,
+.basic-share-button--linkedin:active {
+  background-color: #046293;
+  border-color: #046293;
+}
+
+.basic-share-button--reddit {
+  background-color: #5f99cf;
+  border-color: #5f99cf;
+}
+
+.basic-share-button--reddit:hover,
+.basic-share-button--reddit:active {
+  background-color: #3a80c1;
+  border-color: #3a80c1;
+}
+
+.basic-share-button--whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.basic-share-button--whatsapp:hover,
+.basic-share-button--whatsapp:active {
+  background-color: #1DA851;
+  border-color: #1DA851;
+}
+
+.basic-share-button--telegram {
+  background-color: #54A9EB;
+}
+
+.basic-share-button--telegram:hover {
+  background-color: #4B97D1;}
+
+
+.basic-share-button--tumblr {
+  background-color: #35465C;
+  border-color: #35465C;
+}
+
+.basic-share-button--tumblr:hover,
+.basic-share-button--tumblr:active {
+  background-color: #222d3c;
+  border-color: #222d3c;
+}
